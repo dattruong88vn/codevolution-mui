@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiBottomNavigation } from "./components/MuiBottomNavigation";
+import { MuiAvatar } from "./components/MuiAvatar";
+// import { MuiBottomNavigation } from "./components/MuiBottomNavigation";
 // import { MuiDrawer } from "./components/MuiDrawer";
 // import { MuiBreadcrumbs } from "./components/MuiBreadcrump";
 // import { MuiLink } from "./components/MuiLink";
@@ -38,7 +39,8 @@ function App() {
       {/* <MuiLink /> */}
       {/* <MuiBreadcrumbs /> */}
       {/* <MuiDrawer /> */}
-      <MuiBottomNavigation />
+      {/* <MuiBottomNavigation /> */}
+      <MuiAvatar />
     </div>
   );
 }
